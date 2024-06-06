@@ -1,0 +1,27 @@
+{
+	"name": "SmartSurf",
+	"version": "0.1.0",
+	"manifest_version": 3,
+	"short_name": "Your AI Powered Web Summarizer",
+	"description": "Your one-stop shop for navigating the exciting world of Web3 with ease",
+	"content_security_policy": {
+		"extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline'"
+	},
+
+	"action": {
+		"default_icon": "favicon.png",
+		"default_popup": "index.html",
+		"default_title": "Knowledge. Security. NFTs. Your Decentralized Advantage"
+	},
+	"commands": {
+		"open_extension": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+S",
+				"mac": "MacCtrl+Shift+S"
+			},
+			"description": "Open SmartSurf Extension"
+		}
+	},
+	"permissions": ["activeTab", "storage"],
+	"host_permissions": ["<all_urls>"]
+}
