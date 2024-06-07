@@ -250,13 +250,5 @@
 				</div>
 			{/if}
 		</div>
-
-		<!-- Additional support information -->
-		<!-- <span class="text-xs block text-center mt-32">
-			Need help?
-			<small class="text-xs text-[#263238] dark:text-[#11D9C5] align-bottom"
-				>Contact netsepio support</small
-			>
-		</span> -->
 	</div>
 </div>

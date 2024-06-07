@@ -9,7 +9,7 @@
 	},
 
 	"action": {
-		"default_icon": "favicon.png",
+		"default_icon": "favicon.ico",
 		"default_popup": "index.html",
 		"default_title": "Knowledge. Security. NFTs. Your Decentralized Advantage"
 	},

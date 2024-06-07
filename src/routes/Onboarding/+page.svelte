@@ -29,7 +29,7 @@
 	<!-- Displaying onboarding options when steps are not completed -->
 	<div class="mt-28">
 		<div class="mx-auto">
-			<h1 class="text-2xl semiBold text-center">Welcome to Netsepio</h1>
+			<h1 class="text-2xl semiBold text-center">Welcome to SmartSurf</h1>
 		</div>
 		<div class="mt-[20%] w-[80%] mx-auto flex flex-col justify-center space-y-5 items-center">
 			<!-- Link to create a new wallet -->

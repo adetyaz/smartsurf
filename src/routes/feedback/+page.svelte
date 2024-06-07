@@ -23,7 +23,6 @@
 	// Function to handle the submission of the review
 	const submitReviewHandler = async () => {
 		console.log(`Bearer ${$jwtToken}`);
-		
 
 		try {
 			const response = await fetch(`${PUBLIC_GATEWAY_URL}/feedback`, {
@@ -81,7 +80,7 @@
 			</a>
 
 			<!-- Heading for the review section -->
-			<h1 class="text-2xl mt-[10%] mb-[5%] self-center semiBold">Do you like Netsepio?</h1>
+			<h1 class="text-2xl mt-[10%] mb-[5%] self-center semiBold">Do you like SmartSurf</h1>
 
 			<div>
 				<!-- Rating input section -->
