@@ -123,11 +123,11 @@
 				label: 'AI Summary',
 				component: Summary
 			}
-			// {
-			// 	id: 'tab1',
-			// 	label: 'Reviews',
-			// 	component: Reviews
-			// }
+			{
+				id: 'tab1',
+				label: 'Reviews',
+				component: Reviews
+			}
 		]}
 	/>
 
