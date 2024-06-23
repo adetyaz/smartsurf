@@ -7,6 +7,7 @@
 	import Reviews from './Reviews.svelte';
 	import Summary from './Summary.svelte';
 	import { testnet, urlMap } from '$lib/store/store';
+	import {DiscoverNft} from './DiscoverNft.svelte'
 	// import { ApolloClient, InMemoryCache, useQuery as useGraphqlQuery, gql } from '@apollo/client';
 	import { setClient } from 'svelte-apollo';
 
@@ -125,8 +126,8 @@
 			}
 			{
 				id: 'tab1',
-				label: 'Reviews',
-				component: Reviews
+				label: 'Nft Discovery',
+				component: DisoverNft
 			}
 		]}
 	/>
