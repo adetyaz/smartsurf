@@ -1,0 +1,23 @@
+{
+	"manifest_version": 3,
+	"name": "SmartSurf",
+	"short_name": "SmartSurf",
+	"version": "0.0.2",
+	"description": "Your one-stop shop for navigating the exciting world of Web3 with ease",
+
+	"permissions": ["activeTab", "storage"],
+	"web_accessible_resources": [
+		{
+			"resources": ["index.html"],
+			"matches": ["<all_urls>"]
+		}
+	],
+	"content_scripts": [
+		{
+			"matches": ["https://*/*", "http://*/*"],
+			"js": ["inject.js"]
+		}
+	],
+	"host_permissions": ["<all_urls>"],
+	"action": { "default_icon": "favicon.ico", "default_popup": "index.html" }
+}
